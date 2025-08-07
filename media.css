@@ -8,27 +8,24 @@ body {
   background: url("./images/bg0.jpg") no-repeat;
   background-size: cover;
 }
-h3{
-    display: none;
+h3 {
+  display: none;
 }
-h2{
-    display: none;
-}
-h1{
-    display: none;
+h2 {
+  display: none;
 }
 /* 웹 1200px */
 @media all and (max-width: 1200px) {
   body {
     background: url("./images/bg0.jpg") no-repeat;
   }
-  h1{
+  h1 {
     display: block;
   }
-  h2{
+  h2 {
     display: none;
   }
-  h3{
+  h3 {
     display: none;
   }
 }
@@ -37,13 +34,13 @@ h1{
   body {
     background: url("./images/bg2.jpg") no-repeat;
   }
-  h3{
+  h3 {
     display: none;
   }
-  h2{
+  h2 {
     display: block;
   }
-  h1{
+  h1 {
     display: none;
   }
 }
@@ -52,13 +49,13 @@ h1{
   body {
     background: url("./images/bg3.jpg") no-repeat;
   }
-  h3{
+  h3 {
     display: block;
   }
-  h1{
+  h1 {
     display: none;
   }
-  h2{
+  h2 {
     display: none;
   }
 }
