@@ -17,9 +17,25 @@
             height: 300px;
             background-color: blue;
          }
+         .mobile{
+            display: none;
+         }
+         @media screen and (max-width: 390px){
+            .box{
+                background-color: red;
+                border-radius: 50%;
+            }
+            .tablet{
+                display: none;
+            }
+            .mobile{display: block;}
+         }
+    
     </style>
 </head>
 <body>
     <div class="box"></div>
+    <img src="images/1.jpg" alt="손에 시계" class="mobile">
+    <img src="images/2.jpg" alt="멍멍" class="tablet">
 </body>
 </html>
